@@ -1,0 +1,27 @@
+* {
+	background: #ccccd4;
+	font-family: Krungthep;
+}
+
+div {
+	text-align: center;
+}
+
+h1,
+p {
+	color: white;
+}
+
+h4 {
+	color: #64676e;
+}
+
+button {
+	background: #64676e;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+span {
+	color: white;
+}

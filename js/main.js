@@ -23,5 +23,6 @@ $(document).ready(function() {
 
 		$('span').text(chosenGame);
 		$('span').css('color', randomColour);
+		$('button').text('Try again?');
 	});
 });

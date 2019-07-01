@@ -5,22 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>GameChooser</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
-    <link rel="stylesheet" href="css\style.css" type="text/css">
 </head>
-
-<body>
-    
-<div>
+<body> 
+  <div class="chooser">
     <h1>What Game Should I Play?</h1>
     <h4>Created for the most indecisive of gamer...</h4>
 
-    <button>Decide!</button>
+   <button type="button" id="generate" class="generate">Decide!</button>
 
     <p>You should play <span>...</span>.</p>
-</div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script src="js\main.js"></script>
+  </div>
+  <div class="customList">
+    <form id="gamesForm">
+    <input id="gamesInput" type="text">
+    <button type="button" id="button" class="add">Add Game</button>
+     
+     <button type="button" class="refresh">Clear Games</button>
+      
+    </form>
+  <h4>Your Games</h4>
+    <ol id="gamesList"></ol>
+  </div>
 </body>
 </html>

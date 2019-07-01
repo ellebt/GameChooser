@@ -1,8 +1,10 @@
 # GameChooser
-A Site that chooses which video game I should play when I can't decide for myself🕹
+A Site that chooses which video game you should play when you can't decide for yourself🕹
 
-A simple Javascript (jQuery) application that randomly chooses a game for me to play when I am bored and can't decide for myself, out of the (very small) selection of PS4 games I own. 
+A simple Javascript (with jQuery) application that randomly chooses a game to play when you are bored and can't decide for yourself, out of the list of games you supply it. 
 
-Thinking of adding more functionality (...and more games...), such as being able to enter YOUR own games and use this decision maker for more than just me!
+Next Up:
+- Accessibility updates 
+- Update UI to look even better (more interesting)
 
-(Colour Sheme based on The Super Nintendo Colouring)
+(Colour Scheme based on The Super Nintendo Colouring)

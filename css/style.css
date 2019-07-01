@@ -3,9 +3,15 @@
 	font-family: Krungthep;
 }
 
-div {
+.chooser {
 	text-align: center;
 }
+
+.customList {
+  padding-top: 2%;
+  padding-left: 5%;
+}
+
 
 h1,
 p {
@@ -18,10 +24,32 @@ h4 {
 
 button {
 	background: #64676e;
+  color: white;
 	padding: 20px;
 	border-radius: 10px;
 }
 
+button.refresh {
+  background: #57C095;
+}
+
+button.add {
+  background: #E5432F;
+}
+
+
 span {
 	color: white;
+}
+
+input {
+  background: white;
+  padding: 10px;
+	border-radius: 10px;
+  margin-right: 20px;
+}
+
+ol {
+  font-size: 15px;
+  color: #64676e;
 }
